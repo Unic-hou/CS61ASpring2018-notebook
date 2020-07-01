@@ -81,13 +81,13 @@ def with_if_function():
     return if_function(c(), t(), f())
 
 def c():
-    return 2
+    return 1
 
 def t():
     return 3
 
 def f():
-    return 1
+    return 2
 
 def hailstone(n):
     """Print the hailstone sequence starting at n and return its
